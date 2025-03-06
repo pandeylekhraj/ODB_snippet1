@@ -1,0 +1,4422 @@
+{
+  "SDU": {
+    "SDUInfo": {
+      "Enabled": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1679237815
+      }
+    },
+    "Readback": {
+      "DAC": {
+        "Current (mA)": {
+          "type": 9,
+          "num_values": 7,
+          "access_mode": 7,
+          "last_written": 1740169158
+        },
+        "Control register": {
+          "type": 7,
+          "num_values": 4,
+          "access_mode": 7,
+          "last_written": 1740169160
+        }
+      },
+      "Antenna": {
+        "ADC Control": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1739910764
+        }
+      },
+      "Trigger": {
+        "Trigger_bitsSource": {
+          "type": 8,
+          "num_values": 13,
+          "access_mode": 7,
+          "last_written": 1740142984
+        }
+      },
+      "SDUMessage": {},
+      "LEMOOutputs": {},
+      "Sync_trigger": {
+        "Sync trigger period (min)": {
+          "type": 9,
+          "access_mode": 7,
+          "last_written": 1740682349
+        }
+      },
+      "Accelerometer": {
+        "Threshold Level (ADC Counts)": {
+          "type": 7,
+          "num_values": 4,
+          "access_mode": 7,
+          "last_written": 1740168806
+        }
+      },
+      "ReadoutControl": {
+        "ASCIIdump": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1740682289
+        }
+      },
+      "ControlAndStatus": {}
+    },
+    "Settings": {
+      "DAC": {
+        "Control register comment": {
+          "type": 12,
+          "item_size": 100,
+          "access_mode": 7,
+          "last_written": 1734529524
+        }
+      },
+      "Antenna": {},
+      "Trigger": {},
+      "SDUMessage": {
+        "SDU Message Comment": {
+          "type": 12,
+          "item_size": 100,
+          "access_mode": 7,
+          "last_written": 1739051077
+        },
+        "SDU Message Look up Table": {
+          "type": 7,
+          "num_values": 256,
+          "access_mode": 7,
+          "last_written": 1739052236
+        }
+      },
+      "LEMOOutputs": {},
+      "Sync_trigger": {
+        "Sync trigger period (min)": {
+          "type": 9,
+          "access_mode": 7,
+          "last_written": 1738856789
+        },
+        "Index of sync trig in table": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1739051254
+        }
+      },
+      "Accelerometer": {
+        "AmplGain": {
+          "type": 7,
+          "num_values": 4,
+          "access_mode": 7,
+          "last_written": 1736433623
+        },
+        "Signal Length (samples)": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1736433484
+        }
+      },
+      "ControlAndStatus": {
+        "ControlandStatusComment": {
+          "type": 12,
+          "item_size": 150,
+          "access_mode": 7,
+          "last_written": 1739052367
+        },
+        "Control and Status Register": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1739055006
+        }
+      }
+    },
+    "ReadoutControl": {}
+  },
+  "Elog": {},
+  "Lazy": {
+    "0": {
+      "Settings": {
+        "Path": {
+          "type": 12,
+          "item_size": 128,
+          "access_mode": 7,
+          "last_written": 1738860034
+        },
+        "Period": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1733277490
+        }
+      },
+      "Statistics": {
+        "Backup file": {
+          "type": 12,
+          "item_size": 128,
+          "access_mode": 15,
+          "last_written": 1740169120
+        }
+      }
+    }
+  },
+  "Alias": {},
+  "Alarms": {
+    "Alarms": {
+      "POE1": {
+        "Type": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1737573051
+        },
+        "Active": {
+          "type": 8,
+          "access_mode": 7,
+          "last_written": 1737573449
+        },
+        "Checked last": {
+          "type": 6,
+          "access_mode": 7,
+          "last_written": 1737573430
+        },
+        "Alarm Message": {
+          "type": 12,
+          "item_size": 80,
+          "access_mode": 7,
+          "last_written": 1737574939
+        }
+      },
+      "POE2": {
+        "Type": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1737573347
+        },
+        "Active": {
+          "type": 8,
+          "access_mode": 7,
+          "last_written": 1737573365
+        },
+        "Checked last": {
+          "type": 6,
+          "access_mode": 7,
+          "last_written": 1737573351
+        }
+      },
+      "Lazy_0": {
+        "Type": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1733435692
+        }
+      },
+      "Logger": {
+        "Type": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1733728942
+        }
+      },
+      "mhttpd": {
+        "Type": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1733272686
+        }
+      },
+      "Demo ODB": {
+        "Type": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1679237798
+        },
+        "Check interval": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1687974899
+        }
+      },
+      "Demo periodic": {}
+    },
+    "Classes": {
+      "Alarm": {},
+      "Warning": {},
+      "Level Alarm": {},
+      "ProgramAlarm": {},
+      "MessageBasedAlarm": {},
+      "MessageBasedAlarmStopRun": {}
+    }
+  },
+  "Custom": {
+    "Path": {
+      "type": 12,
+      "item_size": 50,
+      "access_mode": 7,
+      "last_written": 1733270509
+    }
+  },
+  "DCRCUI": {
+    "Zap TES on load script": {
+      "type": 12,
+      "item_size": 32,
+      "access_mode": 7,
+      "last_written": 1733270510
+    },
+    "Parameters database URL": {
+      "type": 12,
+      "item_size": 53,
+      "access_mode": 7,
+      "last_written": 1738348755
+    }
+  },
+  "Logger": {
+    "Runlog": {
+      "SQL": {
+        "Links BOR": {},
+        "Links EOR": {}
+      },
+      "ASCII": {
+        "Links BOR": {},
+        "Links EOR": {}
+      }
+    },
+    "History": {
+      "FILE": {},
+      "ODBC": {},
+      "MIDAS": {},
+      "MYSQL": {},
+      "SQLITE": {}
+    },
+    "Channels": {
+      "0": {
+        "Settings": {
+          "Filename": {
+            "type": 12,
+            "item_size": 256,
+            "access_mode": 7,
+            "last_written": 1738859619
+          },
+          "Options Output": {
+            "type": 12,
+            "item_size": 32,
+            "num_values": 5,
+            "access_mode": 7,
+            "last_written": 1733263499
+          }
+        },
+        "Statistics": {
+          "Disk level": {
+            "type": 10,
+            "access_mode": 7,
+            "last_written": 1740682387
+          }
+        }
+      }
+    },
+    "ODB Dump": {
+      "type": 8,
+      "access_mode": 7,
+      "last_written": 1740682286
+    },
+    "CDMS facility number": {
+      "type": 7,
+      "access_mode": 7,
+      "last_written": 1738868342
+    }
+  },
+  "System": {
+    "Clients": {
+      "568285": {
+        "Host": {
+          "type": 12,
+          "item_size": 256,
+          "access_mode": 1,
+          "last_written": 1734427496
+        }
+      },
+      "1218082": {},
+      "1218088": {
+        "Run state": {
+          "type": 7,
+          "access_mode": 1,
+          "last_written": 1740682383
+        },
+        "Transition START": {
+          "type": 7,
+          "access_mode": 1,
+          "last_written": 1733277491
+        }
+      },
+      "2049309": {
+        "Host": {
+          "type": 12,
+          "item_size": 256,
+          "access_mode": 1,
+          "last_written": 1740682249
+        },
+        "Run state": {
+          "type": 7,
+          "access_mode": 1,
+          "last_written": 1740682385
+        }
+      },
+      "2049311": {
+        "RPC": {
+          "17000": {
+            "type": 8,
+            "access_mode": 1,
+            "last_written": 1740682255
+          }
+        },
+        "Run state": {
+          "type": 7,
+          "access_mode": 1,
+          "last_written": 1740682386
+        }
+      },
+      "2355844": {
+        "Host": {
+          "type": 12,
+          "item_size": 256,
+          "access_mode": 1,
+          "last_written": 1736437751
+        }
+      },
+      "2356074": {
+        "Host": {
+          "type": 12,
+          "item_size": 256,
+          "access_mode": 1,
+          "last_written": 1736437757
+        }
+      },
+      "3988343": {
+        "RPC": {
+          "18000": {
+            "type": 8,
+            "access_mode": 1,
+            "last_written": 1739910759
+          }
+        }
+      },
+      "3988477": {},
+      "3988733": {},
+      "3988765": {},
+      "3988782": {},
+      "3988783": {
+        "Run state": {
+          "type": 7,
+          "access_mode": 1,
+          "last_written": 1740682384
+        }
+      }
+    }
+  },
+  "pytest": {},
+  "History": {
+    "Tags": {
+      "0": {
+        "type": 12,
+        "item_size": 96,
+        "num_values": 3,
+        "access_mode": 7,
+        "last_written": 1679237802
+      },
+      "1": {
+        "type": 12,
+        "item_size": 96,
+        "num_values": 55,
+        "access_mode": 7,
+        "last_written": 1679237801
+      }
+    },
+    "Links": {
+      "System": {}
+    },
+    "Events": {},
+    "Display": {
+      "DCRC": {
+        "Scalers": {}
+      },
+      "Fridge": {
+        "Temperature": {}
+      },
+      "Data rate": {
+        "EBuilder": {},
+        "L2Trigger": {},
+        "Detectors 1 - 6": {},
+        "Detectors 7 - 12": {},
+        "Detectors 13 - 18": {},
+        "Detectors 19 - 24": {},
+        "Detectors 25 - 30": {},
+        "Detectors 37 - 42": {},
+        "Detectors 43 - 48": {},
+        "Detectors 49 - 54": {}
+      },
+      "DummyTest": {
+        "Dummy2": {}
+      },
+      "L2Trigger": {
+        "Overall rates": {},
+        "Physics trigger types": {}
+      },
+      "DCRC Deadtime": {
+        "Detectors 1 - 6": {
+          "Label": {
+            "type": 12,
+            "item_size": 32,
+            "num_values": 12,
+            "access_mode": 7,
+            "last_written": 1679237799
+          }
+        },
+        "Detectors 7 - 12": {},
+        "Detectors 13 - 18": {},
+        "Detectors 19 - 24": {},
+        "Detectors 25 - 30": {},
+        "Detectors 37 - 42": {},
+        "Detectors 43 - 48": {},
+        "Detectors 49 - 54": {}
+      },
+      "DCRC Livetime": {
+        "Detectors 1 - 6": {},
+        "Detectors 7 - 12": {},
+        "Detectors 13 - 18": {},
+        "Detectors 19 - 24": {},
+        "Detectors 25 - 30": {},
+        "Detectors 37 - 42": {},
+        "Detectors 43 - 48": {},
+        "Detectors 49 - 54": {}
+      },
+      "SDU L1 Trigger": {
+        "Overall rates": {}
+      },
+      "L1 trigger rate": {
+        "Detectors 1 - 6": {},
+        "Detectors 7 - 12": {},
+        "Detectors 13 - 18": {},
+        "Detectors 19 - 24": {},
+        "Detectors 25 - 30": {},
+        "Detectors 37 - 42": {},
+        "Detectors 43 - 48": {},
+        "Detectors 49 - 54": {}
+      },
+      "Charge baselines": {
+        "Detector 01": {
+          "Label": {
+            "type": 12,
+            "item_size": 32,
+            "num_values": 4,
+            "access_mode": 7,
+            "last_written": 1679237800
+          }
+        },
+        "Detector 02": {},
+        "Detector 03": {},
+        "Detector 04": {},
+        "Detector 05": {},
+        "Detector 06": {},
+        "Detector 07": {},
+        "Detector 08": {},
+        "Detector 09": {},
+        "Detector 10": {},
+        "Detector 11": {},
+        "Detector 12": {},
+        "Detector 13": {},
+        "Detector 14": {},
+        "Detector 15": {},
+        "Detector 16": {},
+        "Detector 17": {},
+        "Detector 18": {},
+        "Detector 19": {},
+        "Detector 20": {},
+        "Detector 21": {},
+        "Detector 22": {},
+        "Detector 23": {},
+        "Detector 24": {},
+        "Detector 40": {},
+        "Detector 42": {},
+        "Detector 43": {},
+        "Detector 44": {},
+        "Detector 50": {},
+        "Detector 51": {}
+      },
+      "HV Supply senseV": {
+        "Detectors 1 - 6": {},
+        "Detectors 7 - 12": {},
+        "Detectors 13 - 18": {},
+        "Detectors 19 - 24": {},
+        "Detectors 25 - 30": {
+          "Label": {
+            "type": 12,
+            "item_size": 32,
+            "num_values": 12,
+            "access_mode": 7,
+            "last_written": 1739396608
+          }
+        },
+        "Detectors 31 - 36": {},
+        "Detectors 37 - 42": {},
+        "Detectors 43 - 48": {}
+      },
+      "Phonon baselines": {
+        "Detector 01": {},
+        "Detector 02": {},
+        "Detector 03": {},
+        "Detector 04": {},
+        "Detector 05": {},
+        "Detector 06": {},
+        "Detector 07": {},
+        "Detector 08": {},
+        "Detector 09": {},
+        "Detector 10": {},
+        "Detector 11": {},
+        "Detector 12": {},
+        "Detector 13": {},
+        "Detector 14": {},
+        "Detector 15": {},
+        "Detector 16": {},
+        "Detector 17": {},
+        "Detector 18": {},
+        "Detector 19": {},
+        "Detector 20": {},
+        "Detector 21": {},
+        "Detector 22": {},
+        "Detector 23": {},
+        "Detector 24": {},
+        "Detector 40": {},
+        "Detector 42": {},
+        "Detector 43": {},
+        "Detector 44": {},
+        "Detector 50": {},
+        "Detector 51": {}
+      },
+      "Readout deadtime": {
+        "Detectors 1 - 6": {},
+        "Detectors 7 - 12": {},
+        "Detectors 13 - 18": {},
+        "Detectors 19 - 24": {},
+        "Detectors 25 - 30": {},
+        "Detectors 37 - 42": {},
+        "Detectors 43 - 48": {},
+        "Detectors 49 - 54": {}
+      },
+      "HV Supply demandV": {
+        "Detectors 1 - 6": {},
+        "Detectors 7 - 12": {},
+        "Detectors 13 - 18": {},
+        "Detectors 19 - 24": {},
+        "Detectors 25 - 30": {},
+        "Detectors 31 - 36": {},
+        "Detectors 37 - 42": {},
+        "Detectors 43 - 48": {}
+      },
+      "HV Supply currents": {
+        "Detectors 1 - 6": {},
+        "Detectors 7 - 12": {},
+        "Detectors 13 - 18": {},
+        "Detectors 19 - 24": {},
+        "Detectors 25 - 30": {},
+        "Detectors 31 - 36": {},
+        "Detectors 37 - 42": {},
+        "Detectors 43 - 48": {}
+      },
+      "HV Supply temperatures": {
+        "Detectors 1 - 6": {},
+        "Detectors 7 - 12": {},
+        "Detectors 13 - 18": {},
+        "Detectors 19 - 24": {},
+        "Detectors 25 - 30": {},
+        "Detectors 31 - 36": {},
+        "Detectors 37 - 42": {},
+        "Detectors 43 - 48": {}
+      },
+      "DCRC stale readout fraction": {
+        "Detectors 1 - 6": {},
+        "Detectors 7 - 12": {},
+        "Detectors 13 - 18": {},
+        "Detectors 19 - 24": {},
+        "Detectors 25 - 30": {},
+        "Detectors 37 - 42": {},
+        "Detectors 43 - 48": {},
+        "Detectors 49 - 54": {}
+      }
+    },
+    "Display Settings": {}
+  },
+  "Runinfo": {},
+  "Programs": {
+    "py": {},
+    "Lazy": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1739400179
+      }
+    },
+    "py_1": {},
+    "py_3": {},
+    "mdump": {},
+    "mhist": {},
+    "Lazy_0": {},
+    "Logger": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1739400178
+      }
+    },
+    "mhttpd": {},
+    "pytest": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1738071121
+      }
+    },
+    "ODBEdit": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1740169121
+      }
+    },
+    "ODBInit": {},
+    "fedummy": {},
+    "mserver": {},
+    "pytest2": {},
+    "HVDriver": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1739922108
+      }
+    },
+    "ExampleFE": {},
+    "L2Trigger": {},
+    "SDUDriver": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1739910770
+      }
+    },
+    "Sequencer": {},
+    "cdms_dell": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1736807952
+      }
+    },
+    "fedummy01": {},
+    "fedummy02": {},
+    "POEMonitor": {},
+    "cdmshvtest": {},
+    "readoutfe_": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1739910760
+      }
+    },
+    "LockManager": {},
+    "PulseViewer": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1734647453
+      }
+    },
+    "mtransition": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1734649861
+      }
+    },
+    "TestDetector": {},
+    "eventbuilder": {},
+    "pyruncontrol": {},
+    "readoutfe_01": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1739052173
+      }
+    },
+    "readoutfe_02": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1740144190
+      }
+    },
+    "readoutfe_03": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1740682257
+      }
+    },
+    "readoutfe_04": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1740144193
+      }
+    },
+    "readoutfe_05": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1739055167
+      }
+    },
+    "readoutfe_06": {},
+    "readoutfe_07": {},
+    "readoutfe_08": {},
+    "readoutfe_09": {},
+    "readoutfe_10": {},
+    "readoutfe_11": {},
+    "readoutfe_12": {},
+    "readoutfe_13": {},
+    "readoutfe_14": {},
+    "readoutfe_15": {},
+    "readoutfe_16": {},
+    "readoutfe_17": {},
+    "readoutfe_18": {},
+    "readoutfe_19": {},
+    "readoutfe_20": {},
+    "readoutfe_21": {},
+    "readoutfe_22": {},
+    "readoutfe_23": {},
+    "readoutfe_24": {},
+    "readoutfe_25": {},
+    "readoutfe_30": {},
+    "readoutfe_31": {},
+    "readoutfe_40": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1734473489
+      }
+    },
+    "readoutfe_42": {},
+    "readoutfe_43": {},
+    "readoutfe_44": {},
+    "readoutfe_50": {},
+    "readoutfe_51": {},
+    "readoutfe_52": {},
+    "FridgeHistory": {},
+    "readoutfe_SDU": {},
+    "DCRCDriverRevF": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1740682252
+      }
+    },
+    "BaselineControl": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1734378696
+      }
+    },
+    "DetectorTesting": {},
+    "DCRCDriverRevD01": {},
+    "DCRCDriverRevD02": {},
+    "DCRCDriverRevD03": {},
+    "DCRCDriverRevD04": {},
+    "DCRCDriverRevD05": {},
+    "DCRCDriverRevD06": {},
+    "DCRCDriverRevD07": {},
+    "DCRCDriverRevD08": {},
+    "DCRCDriverRevD09": {},
+    "DCRCDriverRevD10": {},
+    "DCRCDriverRevD11": {},
+    "DCRCDriverRevD12": {},
+    "DCRCDriverRevD13": {},
+    "DCRCDriverRevD14": {},
+    "DCRCDriverRevD15": {},
+    "DCRCDriverRevD16": {},
+    "DCRCDriverRevD17": {},
+    "DCRCDriverRevD18": {},
+    "DCRCDriverRevD19": {},
+    "DCRCDriverRevD20": {},
+    "DCRCDriverRevD21": {},
+    "DCRCDriverRevD22": {},
+    "DCRCDriverRevD23": {},
+    "DCRCDriverRevD24": {},
+    "DCRCDriverRevD40": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1739922182
+      }
+    },
+    "DCRCDriverRevE01": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1738857109
+      }
+    },
+    "DCRCDriverRevE02": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1734595691
+      }
+    },
+    "DCRCDriverRevE03": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1738857113
+      }
+    },
+    "DCRCDriverRevE04": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1738857115
+      }
+    },
+    "DCRCDriverRevE05": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1739055510
+      }
+    },
+    "DCRCDriverRevE06": {},
+    "DCRCDriverRevE07": {},
+    "DCRCDriverRevE08": {},
+    "DCRCDriverRevE09": {},
+    "DCRCDriverRevE10": {},
+    "DCRCDriverRevE11": {},
+    "DCRCDriverRevE12": {},
+    "DCRCDriverRevE13": {},
+    "DCRCDriverRevE14": {},
+    "DCRCDriverRevE15": {},
+    "DCRCDriverRevE16": {},
+    "DCRCDriverRevE17": {},
+    "DCRCDriverRevE40": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1739399547
+      }
+    },
+    "DCRCDriverRevE41": {},
+    "DCRCDriverRevE43": {},
+    "DCRCDriverRevE44": {},
+    "DCRCDriverRevF01": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1739052167
+      }
+    },
+    "DCRCDriverRevF02": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1739573877
+      }
+    },
+    "DCRCDriverRevF03": {},
+    "DCRCDriverRevF04": {},
+    "DCRCDriverRevF05": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1739055460
+      }
+    },
+    "DCRCDriverRevF17": {},
+    "DCRCDriverRevF40": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1739575029
+      }
+    },
+    "DCRCDriverRevF42": {},
+    "getSequencerInfo": {},
+    "Execute on stop run": {
+      "type": 12,
+      "item_size": 171,
+      "access_mode": 7,
+      "last_written": 1739482733
+    },
+    "multipleVirtualDCRC": {},
+    "BaselineControl_RevD": {},
+    "Execute on start run": {
+      "type": 12,
+      "item_size": 164,
+      "access_mode": 7,
+      "last_written": 1739482736
+    },
+    "BaselineControl_RevD01": {},
+    "Execute on start abort": {
+      "type": 12,
+      "item_size": 164,
+      "access_mode": 7,
+      "last_written": 1739482765
+    },
+    "cdms-gw.scdms.snolab.ca": {
+      "Required": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1717194743
+      }
+    }
+  },
+  "Detectors": {
+    "Det01": {
+      "DCRCInfo": {
+        "DCRC0": {
+          "Comment": {
+            "type": 12,
+            "item_size": 200,
+            "access_mode": 7,
+            "last_written": 1679237813
+          },
+          "DCRCRev": {
+            "type": 9,
+            "access_mode": 7,
+            "last_written": 1738856742
+          },
+          "DriverPort": {
+            "type": 7,
+            "access_mode": 7,
+            "last_written": 1734113677
+          },
+          "DcrcIPAddress": {
+            "type": 12,
+            "item_size": 200,
+            "access_mode": 7,
+            "last_written": 1739053785
+          },
+          "DcrcROMAddress": {
+            "type": 12,
+            "item_size": 20,
+            "access_mode": 7,
+            "last_written": 1739048232
+          }
+        }
+      },
+      "Readback": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {
+            "LC Coeff SubMod0": {
+              "type": 7,
+              "num_values": 16,
+              "access_mode": 7,
+              "last_written": 1739048229
+            },
+            "LEMO veto on low": {
+              "type": 8,
+              "access_mode": 7,
+              "last_written": 1739048231
+            },
+            "FIR Coeff SubMod0": {
+              "type": 7,
+              "num_values": 1024,
+              "access_mode": 7,
+              "last_written": 1739048230
+            }
+          }
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ReadoutControl": {
+          "ASCIIdump": {
+            "type": 7,
+            "access_mode": 7,
+            "last_written": 1739051358
+          }
+        },
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "Settings": {
+        "LED": {
+          "ADCEnable": {
+            "type": 8,
+            "access_mode": 7,
+            "last_written": 1734114038
+          },
+          "OffTime (us)": {
+            "type": 9,
+            "access_mode": 7,
+            "last_written": 1734378388
+          },
+          "ADCDownsampling": {
+            "type": 7,
+            "access_mode": 7,
+            "last_written": 1734118659
+          }
+        },
+        "Charge": {},
+        "Phonon": {
+          "PreampGain": {
+            "type": 9,
+            "num_values": 12,
+            "access_mode": 7,
+            "last_written": 1734118675
+          },
+          "DriverPGAGain": {
+            "type": 7,
+            "num_values": 12,
+            "access_mode": 7,
+            "last_written": 1734118671
+          }
+        },
+        "L1Trigger": {
+          "DCRC0": {
+            "LC Coeff Comment": {
+              "type": 12,
+              "item_size": 256,
+              "access_mode": 7,
+              "last_written": 1734114036
+            },
+            "FIR Coeff SubMod1": {
+              "type": 7,
+              "num_values": 1024,
+              "access_mode": 7,
+              "last_written": 1734114037
+            }
+          }
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ControlAndStatus": {
+          "DCRC0": {
+            "MasterSlaveFree": {
+              "type": 7,
+              "access_mode": 7,
+              "last_written": 1738856512
+            }
+          }
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {
+        "ASCIIdump": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1734114054
+        }
+      },
+      "BaselineControl": {
+        "Status": {
+          "IncreaseL2TrigRate": {
+            "type": 8,
+            "access_mode": 7,
+            "last_written": 1734372685,
+            "notify_count": 1
+          }
+        },
+        "Settings": {},
+        "ChargeThresholds": {},
+        "PhononThresholds": {}
+      },
+      "InitialUpdateMode": {
+        "type": 7,
+        "access_mode": 7,
+        "last_written": 1734118567
+      },
+      "ThermometryReadout": {
+        "StatusFlags": {},
+        "UserControl": {
+          "R_cold_txt Path": {
+            "type": 12,
+            "item_size": 200,
+            "access_mode": 7,
+            "last_written": 1734114039
+          }
+        }
+      }
+    },
+    "Det02": {
+      "DCRCInfo": {
+        "DCRC0": {
+          "Comment": {
+            "type": 12,
+            "item_size": 200,
+            "access_mode": 7,
+            "last_written": 1679237810
+          },
+          "DCRCRev": {
+            "type": 9,
+            "access_mode": 7,
+            "last_written": 1734595642
+          },
+          "DcrcIPAddress": {
+            "type": 12,
+            "item_size": 200,
+            "access_mode": 7,
+            "last_written": 1734595560
+          },
+          "CalibrationDir": {
+            "type": 12,
+            "item_size": 200,
+            "access_mode": 7,
+            "last_written": 1734593764
+          }
+        }
+      },
+      "Readback": {
+        "LED": {
+          "ADCSelect": {
+            "type": 7,
+            "access_mode": 7,
+            "last_written": 1679237811
+          }
+        },
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {
+            "LC Coeff SubMod0": {
+              "type": 7,
+              "num_values": 16,
+              "access_mode": 7,
+              "last_written": 1738857106
+            },
+            "LEMO veto on low": {
+              "type": 8,
+              "access_mode": 7,
+              "last_written": 1738857108
+            },
+            "FIR Coeff SubMod0": {
+              "type": 7,
+              "num_values": 1024,
+              "access_mode": 7,
+              "last_written": 1738857107
+            }
+          }
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ReadoutControl": {
+          "ASCIIdump": {
+            "type": 7,
+            "access_mode": 7,
+            "last_written": 1740078630
+          },
+          "Enable charge channel": {
+            "type": 8,
+            "num_values": 4,
+            "access_mode": 7,
+            "last_written": 1740078631
+          }
+        },
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "Settings": {
+        "LED": {
+          "ADCEnable": {
+            "type": 8,
+            "access_mode": 7,
+            "last_written": 1734595698
+          },
+          "ADCDownsampling": {
+            "type": 7,
+            "access_mode": 7,
+            "last_written": 1734644517
+          }
+        },
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {
+            "LC Coeff Comment": {
+              "type": 12,
+              "item_size": 256,
+              "access_mode": 7,
+              "last_written": 1734595696
+            },
+            "FIR Coeff SubMod1": {
+              "type": 7,
+              "num_values": 1024,
+              "access_mode": 7,
+              "last_written": 1734595697
+            }
+          }
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {
+        "ASCIIdump": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1734595665
+        }
+      },
+      "BaselineControl": {
+        "Status": {},
+        "Settings": {},
+        "ChargeThresholds": {},
+        "PhononThresholds": {}
+      },
+      "InitialUpdateMode": {
+        "type": 7,
+        "access_mode": 7,
+        "last_written": 1738856707
+      },
+      "ThermometryReadout": {
+        "StatusFlags": {
+          "Countdown": {
+            "type": 9,
+            "access_mode": 7,
+            "last_written": 1734595136
+          }
+        },
+        "UserControl": {}
+      }
+    },
+    "Det03": {
+      "DCRCInfo": {
+        "DCRC0": {
+          "DCRCRev": {
+            "type": 9,
+            "access_mode": 7,
+            "last_written": 1738856601
+          },
+          "DcrcIPAddress": {
+            "type": 12,
+            "item_size": 200,
+            "access_mode": 7,
+            "last_written": 1738856599
+          }
+        }
+      },
+      "Readback": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {
+            "LEMO veto on low": {
+              "type": 8,
+              "access_mode": 7,
+              "last_written": 1740682251
+            },
+            "FIR Coeff SubMod0": {
+              "type": 7,
+              "num_values": 1024,
+              "access_mode": 7,
+              "last_written": 1740682250
+            }
+          }
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ReadoutControl": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "Settings": {
+        "LED": {
+          "OffTime (us)": {
+            "type": 9,
+            "access_mode": 7,
+            "last_written": 1738857253
+          }
+        },
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {
+            "LC Coeff Comment": {
+              "type": 12,
+              "item_size": 256,
+              "access_mode": 7,
+              "last_written": 1738857250
+            }
+          }
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {
+        "ASCIIdump": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1738857383
+        }
+      },
+      "BaselineControl": {
+        "Status": {},
+        "Settings": {},
+        "ChargeThresholds": {},
+        "PhononThresholds": {}
+      },
+      "InitialUpdateMode": {
+        "type": 7,
+        "access_mode": 7,
+        "last_written": 1738856721
+      },
+      "ThermometryReadout": {
+        "StatusFlags": {},
+        "UserControl": {}
+      }
+    },
+    "Det04": {
+      "DCRCInfo": {
+        "DCRC0": {
+          "Comment": {
+            "type": 12,
+            "item_size": 200,
+            "access_mode": 7,
+            "last_written": 1679237803
+          },
+          "DCRCRev": {
+            "type": 9,
+            "access_mode": 7,
+            "last_written": 1738856644
+          },
+          "ReadoutPort": {
+            "type": 7,
+            "access_mode": 7,
+            "last_written": 1738856642
+          },
+          "DcrcIPAddress": {
+            "type": 12,
+            "item_size": 200,
+            "access_mode": 7,
+            "last_written": 1739052694
+          },
+          "DcrcROMAddress": {
+            "type": 12,
+            "item_size": 20,
+            "access_mode": 7,
+            "last_written": 1739052731
+          }
+        }
+      },
+      "Readback": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {
+            "LC Coeff SubMod0": {
+              "type": 7,
+              "num_values": 16,
+              "access_mode": 7,
+              "last_written": 1739052728
+            },
+            "LEMO veto on low": {
+              "type": 8,
+              "access_mode": 7,
+              "last_written": 1739052730
+            },
+            "FIR Coeff SubMod0": {
+              "type": 7,
+              "num_values": 1024,
+              "access_mode": 7,
+              "last_written": 1739052729
+            }
+          }
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ReadoutControl": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "Settings": {
+        "LED": {
+          "OffTime (us)": {
+            "type": 9,
+            "access_mode": 7,
+            "last_written": 1738857276
+          }
+        },
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {
+            "LC Coeff Comment": {
+              "type": 12,
+              "item_size": 256,
+              "access_mode": 7,
+              "last_written": 1738857273
+            }
+          }
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {},
+      "BaselineControl": {
+        "Status": {},
+        "Settings": {},
+        "ChargeThresholds": {},
+        "PhononThresholds": {}
+      },
+      "InitialUpdateMode": {
+        "type": 7,
+        "access_mode": 7,
+        "last_written": 1738856669
+      },
+      "ThermometryReadout": {
+        "StatusFlags": {},
+        "UserControl": {}
+      }
+    },
+    "Det05": {
+      "DCRCInfo": {
+        "DCRC0": {
+          "DCRCRev": {
+            "type": 9,
+            "access_mode": 7,
+            "last_written": 1739055434
+          },
+          "DcrcIPAddress": {
+            "type": 12,
+            "item_size": 200,
+            "access_mode": 7,
+            "last_written": 1739053808
+          }
+        }
+      },
+      "Readback": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ReadoutControl": {
+          "ASCIIdump": {
+            "type": 7,
+            "access_mode": 7,
+            "last_written": 1739055074
+          }
+        },
+        "ControlAndStatus": {
+          "DCRC0": {
+            "MasterSlaveFree": {
+              "type": 7,
+              "access_mode": 7,
+              "last_written": 1739053854
+            }
+          }
+        }
+      },
+      "Settings": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {
+        "ASCIIdump": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1739054278
+        }
+      },
+      "BaselineControl": {
+        "Status": {},
+        "Settings": {},
+        "ChargeThresholds": {
+          "Charge (-) AutoZeroThresh (mV)": {
+            "type": 7,
+            "num_values": 4,
+            "access_mode": 7,
+            "last_written": 1679237804
+          }
+        },
+        "PhononThresholds": {}
+      },
+      "ThermometryReadout": {
+        "StatusFlags": {},
+        "UserControl": {}
+      }
+    },
+    "Det06": {
+      "DCRCInfo": {
+        "DCRC0": {}
+      },
+      "Readback": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ReadoutControl": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "Settings": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {},
+      "BaselineControl": {
+        "Status": {},
+        "Settings": {},
+        "ChargeThresholds": {},
+        "PhononThresholds": {}
+      },
+      "ThermometryReadout": {
+        "StatusFlags": {},
+        "UserControl": {}
+      }
+    },
+    "Det07": {
+      "DCRCInfo": {
+        "DCRC0": {}
+      },
+      "Readback": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ReadoutControl": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "Settings": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {},
+      "BaselineControl": {
+        "Status": {},
+        "Settings": {},
+        "ChargeThresholds": {},
+        "PhononThresholds": {}
+      },
+      "ThermometryReadout": {
+        "StatusFlags": {},
+        "UserControl": {}
+      }
+    },
+    "Det08": {
+      "DCRCInfo": {
+        "DCRC0": {}
+      },
+      "Readback": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {
+          "PreampGain": {
+            "type": 9,
+            "num_values": 12,
+            "access_mode": 7,
+            "last_written": 1679237805
+          }
+        },
+        "L1Trigger": {
+          "DCRC0": {
+            "LC Coeff SubMod0": {
+              "type": 7,
+              "num_values": 16,
+              "access_mode": 7,
+              "last_written": 1702710854
+            }
+          }
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ReadoutControl": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "Settings": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {},
+      "BaselineControl": {
+        "Status": {},
+        "Settings": {},
+        "ChargeThresholds": {},
+        "PhononThresholds": {}
+      },
+      "ThermometryReadout": {
+        "StatusFlags": {},
+        "UserControl": {}
+      }
+    },
+    "Det09": {
+      "DCRCInfo": {
+        "DCRC0": {}
+      },
+      "Readback": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ReadoutControl": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "Settings": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {},
+      "BaselineControl": {
+        "Status": {},
+        "Settings": {},
+        "ChargeThresholds": {},
+        "PhononThresholds": {}
+      },
+      "ThermometryReadout": {
+        "StatusFlags": {},
+        "UserControl": {}
+      }
+    },
+    "Det10": {
+      "DCRCInfo": {
+        "DCRC0": {}
+      },
+      "Readback": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ReadoutControl": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "Settings": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {},
+      "BaselineControl": {
+        "Status": {},
+        "Settings": {},
+        "ChargeThresholds": {},
+        "PhononThresholds": {}
+      },
+      "ThermometryReadout": {
+        "StatusFlags": {},
+        "UserControl": {}
+      }
+    },
+    "Det11": {
+      "DCRCInfo": {
+        "DCRC0": {}
+      },
+      "Readback": {
+        "LED": {
+          "Enable": {
+            "type": 8,
+            "access_mode": 7,
+            "last_written": 1679237806
+          }
+        },
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ReadoutControl": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "Settings": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {},
+      "BaselineControl": {
+        "Status": {},
+        "Settings": {},
+        "ChargeThresholds": {},
+        "PhononThresholds": {}
+      },
+      "ThermometryReadout": {
+        "StatusFlags": {},
+        "UserControl": {}
+      }
+    },
+    "Det12": {
+      "DCRCInfo": {
+        "DCRC0": {}
+      },
+      "Readback": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ReadoutControl": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "Settings": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {},
+      "BaselineControl": {
+        "Status": {},
+        "Settings": {},
+        "ChargeThresholds": {},
+        "PhononThresholds": {}
+      },
+      "ThermometryReadout": {
+        "StatusFlags": {},
+        "UserControl": {}
+      }
+    },
+    "Det13": {
+      "DCRCInfo": {
+        "DCRC0": {}
+      },
+      "Readback": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ReadoutControl": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "Settings": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {},
+      "BaselineControl": {
+        "Status": {},
+        "Settings": {},
+        "ChargeThresholds": {
+          "Charge (+) AutoZeroThresh (mV)": {
+            "type": 7,
+            "num_values": 4,
+            "access_mode": 7,
+            "last_written": 1679237812
+          }
+        },
+        "PhononThresholds": {}
+      },
+      "ThermometryReadout": {
+        "StatusFlags": {},
+        "UserControl": {}
+      }
+    },
+    "Det14": {
+      "DCRCInfo": {
+        "DCRC0": {}
+      },
+      "Readback": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ReadoutControl": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "Settings": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {},
+      "BaselineControl": {
+        "Status": {},
+        "Settings": {},
+        "ChargeThresholds": {},
+        "PhononThresholds": {}
+      },
+      "ThermometryReadout": {
+        "StatusFlags": {},
+        "UserControl": {}
+      }
+    },
+    "Det15": {
+      "DCRCInfo": {
+        "DCRC0": {}
+      },
+      "Readback": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ReadoutControl": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "Settings": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {},
+      "BaselineControl": {
+        "Status": {},
+        "Settings": {},
+        "ChargeThresholds": {},
+        "PhononThresholds": {}
+      },
+      "ThermometryReadout": {
+        "StatusFlags": {},
+        "UserControl": {}
+      }
+    },
+    "Det16": {
+      "DCRCInfo": {
+        "DCRC0": {}
+      },
+      "Readback": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ReadoutControl": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "Settings": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {},
+      "BaselineControl": {
+        "Status": {},
+        "Settings": {},
+        "ChargeThresholds": {},
+        "PhononThresholds": {}
+      },
+      "ThermometryReadout": {
+        "StatusFlags": {},
+        "UserControl": {}
+      }
+    },
+    "Det17": {
+      "DCRCInfo": {
+        "DCRC0": {}
+      },
+      "Readback": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ReadoutControl": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "Settings": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {},
+      "BaselineControl": {
+        "Status": {},
+        "Settings": {},
+        "ChargeThresholds": {},
+        "PhononThresholds": {}
+      },
+      "ThermometryReadout": {
+        "StatusFlags": {},
+        "UserControl": {}
+      }
+    },
+    "Det18": {
+      "DCRCInfo": {
+        "DCRC0": {},
+        "DCRC1": {}
+      },
+      "Readback": {
+        "LED": {
+          "Enable": {
+            "type": 8,
+            "access_mode": 7,
+            "last_written": 1679237807
+          }
+        },
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "LegacyTrigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "ReadoutControl": {},
+        "ControlAndStatus": {
+          "DCRC0": {},
+          "DCRC1": {}
+        }
+      },
+      "Settings": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "TestSignal": {},
+        "HighVoltage": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "Thermometry": {},
+        "LegacyTrigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "ControlAndStatus": {
+          "DCRC0": {},
+          "DCRC1": {}
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {},
+      "BaselineControl": {
+        "Status": {},
+        "Settings": {},
+        "ChargeThresholds": {},
+        "PhononThresholds": {}
+      }
+    },
+    "Det19": {
+      "DCRCInfo": {
+        "DCRC0": {},
+        "DCRC1": {}
+      },
+      "Readback": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "LegacyTrigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "ReadoutControl": {},
+        "ControlAndStatus": {
+          "DCRC0": {},
+          "DCRC1": {}
+        }
+      },
+      "Settings": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "TestSignal": {},
+        "HighVoltage": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "Thermometry": {},
+        "LegacyTrigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "ControlAndStatus": {
+          "DCRC0": {},
+          "DCRC1": {}
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {},
+      "BaselineControl": {
+        "Status": {},
+        "Settings": {},
+        "ChargeThresholds": {},
+        "PhononThresholds": {}
+      }
+    },
+    "Det20": {
+      "DCRCInfo": {
+        "DCRC0": {},
+        "DCRC1": {}
+      },
+      "Readback": {
+        "LED": {
+          "Enable": {
+            "type": 8,
+            "access_mode": 7,
+            "last_written": 1679237808
+          }
+        },
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "LegacyTrigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "ReadoutControl": {},
+        "ControlAndStatus": {
+          "DCRC0": {},
+          "DCRC1": {}
+        }
+      },
+      "Settings": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "TestSignal": {},
+        "HighVoltage": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "Thermometry": {},
+        "LegacyTrigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "ControlAndStatus": {
+          "DCRC0": {},
+          "DCRC1": {}
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {},
+      "BaselineControl": {
+        "Status": {},
+        "Settings": {},
+        "ChargeThresholds": {},
+        "PhononThresholds": {}
+      }
+    },
+    "Det21": {
+      "DCRCInfo": {
+        "DCRC0": {},
+        "DCRC1": {}
+      },
+      "Readback": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "LegacyTrigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "ReadoutControl": {},
+        "ControlAndStatus": {
+          "DCRC0": {},
+          "DCRC1": {}
+        }
+      },
+      "Settings": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "TestSignal": {},
+        "HighVoltage": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "Thermometry": {},
+        "LegacyTrigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "ControlAndStatus": {
+          "DCRC0": {},
+          "DCRC1": {}
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {},
+      "BaselineControl": {
+        "Status": {},
+        "Settings": {},
+        "ChargeThresholds": {},
+        "PhononThresholds": {}
+      }
+    },
+    "Det22": {
+      "DCRCInfo": {
+        "DCRC0": {
+          "Comment": {
+            "type": 12,
+            "item_size": 200,
+            "access_mode": 7,
+            "last_written": 1679237809
+          }
+        },
+        "DCRC1": {}
+      },
+      "Readback": {
+        "LED": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "LegacyTrigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "ReadoutControl": {},
+        "ControlAndStatus": {
+          "DCRC0": {},
+          "DCRC1": {}
+        }
+      },
+      "Settings": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "TestSignal": {},
+        "HighVoltage": {
+          "DCRC0": {
+            "outputSwitch": {
+              "type": 7,
+              "access_mode": 7,
+              "last_written": 1739910906
+            }
+          },
+          "DCRC1": {}
+        },
+        "Thermometry": {},
+        "LegacyTrigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "ControlAndStatus": {
+          "DCRC0": {},
+          "DCRC1": {}
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {},
+      "BaselineControl": {
+        "Status": {},
+        "Settings": {},
+        "ChargeThresholds": {},
+        "PhononThresholds": {}
+      },
+      "ThermometryReadout": {
+        "UserControl": {}
+      }
+    },
+    "Det23": {
+      "DCRCInfo": {
+        "DCRC0": {},
+        "DCRC1": {}
+      },
+      "Readback": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "LegacyTrigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "ReadoutControl": {},
+        "ControlAndStatus": {
+          "DCRC0": {},
+          "DCRC1": {}
+        }
+      },
+      "Settings": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "TestSignal": {},
+        "HighVoltage": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "Thermometry": {},
+        "LegacyTrigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "ControlAndStatus": {
+          "DCRC0": {},
+          "DCRC1": {}
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {},
+      "BaselineControl": {
+        "Status": {},
+        "Settings": {},
+        "ChargeThresholds": {},
+        "PhononThresholds": {}
+      }
+    },
+    "Det24": {
+      "DCRCInfo": {
+        "DCRC0": {},
+        "DCRC1": {}
+      },
+      "Readback": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "LegacyTrigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "ReadoutControl": {},
+        "ControlAndStatus": {
+          "DCRC0": {},
+          "DCRC1": {}
+        }
+      },
+      "Settings": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "TestSignal": {},
+        "HighVoltage": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "Thermometry": {},
+        "LegacyTrigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "ControlAndStatus": {
+          "DCRC0": {},
+          "DCRC1": {}
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {},
+      "BaselineControl": {
+        "Status": {},
+        "Settings": {},
+        "ChargeThresholds": {},
+        "PhononThresholds": {}
+      }
+    },
+    "Det40": {
+      "DCRCInfo": {
+        "DCRC0": {
+          "Comment": {
+            "type": 12,
+            "item_size": 200,
+            "access_mode": 7,
+            "last_written": 1734427432
+          },
+          "DCRCRev": {
+            "type": 9,
+            "access_mode": 7,
+            "last_written": 1739574371
+          },
+          "Enabled": {
+            "type": 8,
+            "access_mode": 7,
+            "last_written": 1734472828
+          },
+          "DriverPort": {
+            "type": 7,
+            "access_mode": 7,
+            "last_written": 1739399573
+          },
+          "ReadoutPort": {
+            "type": 7,
+            "access_mode": 7,
+            "last_written": 1739399575
+          },
+          "DcrcIPAddress": {
+            "type": 12,
+            "item_size": 200,
+            "access_mode": 7,
+            "last_written": 1739397105
+          },
+          "DcrcROMAddress": {
+            "type": 12,
+            "item_size": 20,
+            "access_mode": 7,
+            "last_written": 1739573976
+          },
+          "DcrcFirmwareVersion": {
+            "type": 12,
+            "item_size": 32,
+            "access_mode": 7,
+            "last_written": 1739914333
+          }
+        },
+        "DCRC1": {
+          "Comment": {
+            "type": 12,
+            "item_size": 200,
+            "access_mode": 7,
+            "last_written": 1739397126
+          },
+          "DCRCRev": {
+            "type": 9,
+            "access_mode": 7,
+            "last_written": 1739574376
+          },
+          "Enabled": {
+            "type": 8,
+            "access_mode": 7,
+            "last_written": 1739397067
+          },
+          "DriverPort": {
+            "type": 7,
+            "access_mode": 7,
+            "last_written": 1739399567
+          },
+          "ReadoutPort": {
+            "type": 7,
+            "access_mode": 7,
+            "last_written": 1739399569
+          },
+          "DcrcIPAddress": {
+            "type": 12,
+            "item_size": 200,
+            "access_mode": 7,
+            "last_written": 1739397085
+          }
+        },
+        "DetectorType": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1739396877
+        }
+      },
+      "Readback": {
+        "LED": {},
+        "Charge": {
+          "Bias (V)": {
+            "type": 9,
+            "num_values": 4,
+            "access_mode": 7,
+            "last_written": 1734472907
+          }
+        },
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {
+            "LC Coeff SubMod0": {
+              "type": 7,
+              "num_values": 16,
+              "access_mode": 7,
+              "last_written": 1739914331
+            },
+            "LEMO veto on low": {
+              "type": 8,
+              "access_mode": 7,
+              "last_written": 1739914332
+            }
+          },
+          "DCRC1": {}
+        },
+        "TestSignal": {},
+        "HighVoltage": {
+          "DCRC0": {
+            "ChannelIndex": {
+              "type": 9,
+              "access_mode": 7,
+              "last_written": 1739922107
+            }
+          },
+          "DCRC1": {}
+        },
+        "Thermometry": {},
+        "LegacyTrigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "ReadoutControl": {
+          "ASCIIdump": {
+            "type": 7,
+            "access_mode": 7,
+            "last_written": 1734473234
+          }
+        },
+        "ControlAndStatus": {
+          "DCRC0": {},
+          "DCRC1": {}
+        }
+      },
+      "Settings": {
+        "LED": {
+          "Enable": {
+            "type": 8,
+            "access_mode": 7,
+            "last_written": 1739574765
+          }
+        },
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {
+            "LC Coeff Comment": {
+              "type": 12,
+              "item_size": 256,
+              "access_mode": 7,
+              "last_written": 1739400360
+            },
+            "LC Coeff SubMod0": {
+              "type": 7,
+              "num_values": 16,
+              "access_mode": 7,
+              "last_written": 1739401400
+            },
+            "LEMO veto on low": {
+              "type": 8,
+              "access_mode": 7,
+              "last_written": 1739401401
+            }
+          },
+          "DCRC1": {
+            "LEMO veto on low": {
+              "type": 8,
+              "access_mode": 7,
+              "last_written": 1739401402
+            },
+            "SDU Message Comment": {
+              "type": 12,
+              "item_size": 256,
+              "access_mode": 7,
+              "last_written": 1739400361
+            }
+          }
+        },
+        "TestSignal": {},
+        "HighVoltage": {
+          "DCRC0": {
+            "ChannelIndex": {
+              "type": 7,
+              "access_mode": 7,
+              "last_written": 1739915601
+            },
+            "outputSwitch": {
+              "type": 7,
+              "access_mode": 7,
+              "last_written": 1739915200
+            },
+            "maxVoltage (V)": {
+              "type": 9,
+              "access_mode": 7,
+              "last_written": 1739922125
+            },
+            "outputVoltage (V)": {
+              "type": 9,
+              "access_mode": 7,
+              "last_written": 1739922129
+            }
+          },
+          "DCRC1": {
+            "ChannelIndex": {
+              "type": 7,
+              "access_mode": 7,
+              "last_written": 1739914408
+            },
+            "maxVoltage (V)": {
+              "type": 9,
+              "access_mode": 7,
+              "last_written": 1739922118
+            },
+            "outputVoltage (V)": {
+              "type": 9,
+              "access_mode": 7,
+              "last_written": 1739922119
+            }
+          }
+        },
+        "Thermometry": {
+          "Averaging": {
+            "type": 7,
+            "access_mode": 7,
+            "last_written": 1739573974
+          }
+        },
+        "LegacyTrigger": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "ControlAndStatus": {
+          "DCRC0": {},
+          "DCRC1": {}
+        }
+      },
+      "ReadoutControl": {
+        "ASCIIdump": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1734472972
+        },
+        "Charge on-pulse length (ms)": {
+          "type": 9,
+          "access_mode": 7,
+          "last_written": 1734473226
+        }
+      },
+      "DummyReadoutMode": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1739396997
+      },
+      "UseLegacyTrigger": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1739574767
+      },
+      "InitialUpdateMode": {
+        "type": 7,
+        "access_mode": 7,
+        "last_written": 1739401646
+      },
+      "ThermometryReadout": {
+        "StatusFlags": {},
+        "UserControl": {}
+      }
+    },
+    "Det41": {
+      "DCRCInfo": {
+        "DCRC0": {
+          "Comment": {
+            "type": 12,
+            "item_size": 200,
+            "access_mode": 7,
+            "last_written": 1679237814
+          },
+          "DCRCRev": {
+            "type": 9,
+            "access_mode": 7,
+            "last_written": 1734474654
+          },
+          "Enabled": {
+            "type": 8,
+            "access_mode": 7,
+            "last_written": 1734594335
+          },
+          "DcrcIPAddress": {
+            "type": 12,
+            "item_size": 200,
+            "access_mode": 7,
+            "last_written": 1734474617
+          }
+        },
+        "DCRC1": {
+          "DCRCRev": {
+            "type": 9,
+            "access_mode": 7,
+            "last_written": 1734474641
+          },
+          "Enabled": {
+            "type": 8,
+            "access_mode": 7,
+            "last_written": 1734594340
+          },
+          "ReadoutPort": {
+            "type": 7,
+            "access_mode": 7,
+            "last_written": 1734474563
+          },
+          "DcrcIPAddress": {
+            "type": 12,
+            "item_size": 200,
+            "access_mode": 7,
+            "last_written": 1734474630
+          }
+        },
+        "DetectorType": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1734474562
+        }
+      },
+      "Readback": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "Settings": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "HighVoltage": {
+          "DCRC0": {},
+          "DCRC1": {}
+        },
+        "Thermometry": {},
+        "ControlAndStatus": {
+          "DCRC0": {},
+          "DCRC1": {
+            "MasterSlaveFree": {
+              "type": 7,
+              "access_mode": 7,
+              "last_written": 1734594759
+            }
+          }
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {},
+      "BaselineControl": {
+        "Status": {},
+        "Settings": {},
+        "ChargeThresholds": {},
+        "PhononThresholds": {}
+      },
+      "ThermometryReadout": {
+        "StatusFlags": {},
+        "UserControl": {}
+      }
+    },
+    "Det42": {
+      "DCRCInfo": {
+        "DCRC0": {}
+      },
+      "Readback": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ReadoutControl": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "Settings": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {},
+      "BaselineControl": {
+        "Status": {},
+        "Settings": {},
+        "ChargeThresholds": {},
+        "PhononThresholds": {}
+      },
+      "ThermometryReadout": {
+        "StatusFlags": {},
+        "UserControl": {}
+      }
+    },
+    "Det43": {
+      "DCRCInfo": {
+        "DCRC0": {}
+      },
+      "Readback": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ReadoutControl": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "Settings": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {},
+      "BaselineControl": {
+        "Status": {},
+        "Settings": {},
+        "ChargeThresholds": {},
+        "PhononThresholds": {}
+      },
+      "ThermometryReadout": {
+        "StatusFlags": {},
+        "UserControl": {}
+      }
+    },
+    "Det44": {
+      "DCRCInfo": {
+        "DCRC0": {}
+      },
+      "Readback": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ReadoutControl": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "Settings": {
+        "LED": {},
+        "Charge": {},
+        "Phonon": {},
+        "L1Trigger": {
+          "DCRC0": {}
+        },
+        "TestSignal": {},
+        "Thermometry": {},
+        "ControlAndStatus": {
+          "DCRC0": {}
+        }
+      },
+      "LockManager": {},
+      "ReadoutControl": {},
+      "BaselineControl": {
+        "Status": {},
+        "Settings": {},
+        "ChargeThresholds": {},
+        "PhononThresholds": {}
+      },
+      "ThermometryReadout": {
+        "StatusFlags": {},
+        "UserControl": {}
+      }
+    }
+  },
+  "Equipment": {
+    "EBlvl": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "EBuilder": {
+      "Common": {},
+      "Readback": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {
+        "Events sent": {
+          "type": 10,
+          "access_mode": 15,
+          "last_written": 1740682382
+        }
+      },
+      "Special dump numbers": {
+        "Last BORR": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1740682292
+        }
+      }
+    },
+    "hvsupply": {
+      "Common": {
+        "Type": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1739922102
+        }
+      },
+      "Readback": {
+        "mainSwitch": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1739922103
+        }
+      },
+      "Settings": {
+        "Hostname": {
+          "type": 12,
+          "item_size": 200,
+          "access_mode": 7,
+          "last_written": 1739396546
+        },
+        "mainSwitch": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1739922157
+        }
+      },
+      "Variables": {},
+      "Statistics": {}
+    },
+    "L2Trigger": {
+      "Common": {},
+      "Status": {},
+      "Settings": {
+        "Global": {},
+        "LEMOTrigger": {
+          "LEMO 0": {
+            "type": 8,
+            "num_values": 42,
+            "access_mode": 7,
+            "last_written": 1740145255
+          }
+        },
+        "RandomTrigger": {
+          "N end of run": {
+            "type": 7,
+            "access_mode": 7,
+            "last_written": 1736437852
+          },
+          "N begin of run": {
+            "type": 7,
+            "access_mode": 7,
+            "last_written": 1736437851
+          },
+          "In run rate (Hz)": {
+            "type": 9,
+            "access_mode": 7,
+            "last_written": 1740144375
+          },
+          "End of run rate (Hz)": {
+            "type": 9,
+            "access_mode": 7,
+            "last_written": 1736437853
+          }
+        },
+        "PrimitivesTrigger": {},
+        "TestSignalTrigger": {},
+        "BaselineControlRandomTrigger": {},
+        "SaltingEventStubRandomTrigger": {
+          "Rate (Hz)": {
+            "type": 9,
+            "access_mode": 7,
+            "last_written": 1740169176
+          },
+          "Blank stubs": {
+            "type": 8,
+            "access_mode": 7,
+            "last_written": 1740169175
+          }
+        }
+      },
+      "Variables": {},
+      "Statistics": {}
+    },
+    "SDUDriver": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "LockManager": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutfe01": {
+      "Common": {
+        "Type": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1739048248
+        }
+      },
+      "Variables": {},
+      "Statistics": {
+        "Events sent": {
+          "type": 10,
+          "access_mode": 7,
+          "last_written": 1739051878
+        }
+      }
+    },
+    "readoutfe02": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {
+        "Events sent": {
+          "type": 10,
+          "access_mode": 7,
+          "last_written": 1740078663
+        }
+      }
+    },
+    "readoutfe03": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutfe04": {
+      "Common": {
+        "Type": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1739910765
+        }
+      },
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutfe05": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutfe06": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutfe07": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutfe08": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutfe09": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutfe10": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutfe11": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutfe12": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutfe13": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutfe14": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutfe15": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutfe16": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutfe17": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutfe18": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutfe19": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutfe20": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutfe21": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutfe22": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutfe23": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutfe24": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutfe40": {
+      "Common": {
+        "Type": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1734472971
+        }
+      },
+      "Variables": {},
+      "Statistics": {
+        "Events sent": {
+          "type": 10,
+          "access_mode": 7,
+          "last_written": 1734473487
+        }
+      }
+    },
+    "readoutfe42": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutfe43": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutfe44": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutfe_SDU": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutveto01": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {
+        "Events sent": {
+          "type": 10,
+          "access_mode": 7,
+          "last_written": 1739051881
+        }
+      }
+    },
+    "readoutveto02": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutveto03": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutveto04": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {
+        "Events sent": {
+          "type": 10,
+          "access_mode": 7,
+          "last_written": 1740078666
+        }
+      }
+    },
+    "readoutveto05": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutveto06": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutveto07": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutveto08": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutveto09": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutveto10": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutveto11": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutveto12": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutveto13": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutveto14": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutveto15": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutveto16": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutveto17": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutveto18": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutveto19": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutveto20": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutveto21": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutveto22": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutveto23": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutveto24": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutveto40": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {
+        "Events sent": {
+          "type": 10,
+          "access_mode": 7,
+          "last_written": 1734473481
+        }
+      }
+    },
+    "readoutveto42": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutveto43": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutveto44": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "fridge_history": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "BaselineControl": {
+      "Common": {
+        "Type": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1734113335
+        }
+      },
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevF": {
+      "Common": {
+        "Type": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1739573897
+        }
+      },
+      "Variables": {},
+      "Statistics": {}
+    },
+    "hvsupplyhistory": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "L2TriggerHistory": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "Thermometry_RevF": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readouthistory01": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {
+        "Events sent": {
+          "type": 10,
+          "access_mode": 7,
+          "last_written": 1739051885
+        }
+      }
+    },
+    "readouthistory02": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readouthistory03": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readouthistory04": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {
+        "Events sent": {
+          "type": 10,
+          "access_mode": 7,
+          "last_written": 1740078668
+        }
+      }
+    },
+    "readouthistory05": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readouthistory06": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readouthistory07": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readouthistory08": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readouthistory09": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readouthistory10": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readouthistory11": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readouthistory12": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readouthistory13": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readouthistory14": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readouthistory15": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readouthistory16": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readouthistory17": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readouthistory18": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readouthistory19": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readouthistory20": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readouthistory21": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readouthistory22": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readouthistory23": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readouthistory24": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readouthistory40": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {
+        "Events sent": {
+          "type": 10,
+          "access_mode": 7,
+          "last_written": 1734473463
+        }
+      }
+    },
+    "readouthistory42": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readouthistory43": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readouthistory44": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevD40": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevE01": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevE02": {
+      "Common": {
+        "Type": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1734595566
+        }
+      },
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevE03": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevE04": {
+      "Common": {
+        "Type": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1738857112
+        }
+      },
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevE05": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevE06": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevE07": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevE08": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevE09": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevE10": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevE11": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevE12": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevE13": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevE14": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevE15": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevE16": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevE17": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevE40": {
+      "Common": {
+        "Type": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1739399543
+        }
+      },
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevE41": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevE43": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevE44": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevF01": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevF02": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevF03": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevF04": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevF05": {
+      "Common": {
+        "Type": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1739055457
+        }
+      },
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevF17": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevF40": {
+      "Common": {
+        "Type": {
+          "type": 7,
+          "access_mode": 7,
+          "last_written": 1739575028
+        }
+      },
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_RevF42": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "readoutSDUhistory": {
+      "Common": {},
+      "Settings": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "Thermometry_RevD40": {
+      "Common": {},
+      "Variables": {
+        "TEMP": {
+          "type": 9,
+          "access_mode": 7,
+          "last_written": 1734473037,
+          "notify_count": 1
+        }
+      },
+      "Statistics": {}
+    },
+    "Thermometry_RevE01": {
+      "Common": {},
+      "Variables": {
+        "TEMP": {
+          "type": 9,
+          "access_mode": 7,
+          "last_written": 1736438163,
+          "notify_count": 1
+        }
+      },
+      "Statistics": {}
+    },
+    "Thermometry_RevE02": {
+      "Common": {},
+      "Variables": {
+        "TEMP": {
+          "type": 9,
+          "access_mode": 7,
+          "last_written": 1734595689,
+          "notify_count": 1
+        }
+      },
+      "Statistics": {}
+    },
+    "Thermometry_RevE03": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "Thermometry_RevE04": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "Thermometry_RevE05": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "Thermometry_RevE40": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "Thermometry_RevE41": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "Thermometry_RevE43": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "Thermometry_RevE44": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "Thermometry_RevF01": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "Thermometry_RevF02": {
+      "Common": {},
+      "Variables": {
+        "TEMP": {
+          "type": 9,
+          "access_mode": 7,
+          "last_written": 1739053506,
+          "notify_count": 1
+        }
+      },
+      "Statistics": {}
+    },
+    "Thermometry_RevF03": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "Thermometry_RevF04": {
+      "Common": {},
+      "Variables": {
+        "TEMP": {
+          "type": 9,
+          "access_mode": 7,
+          "last_written": 1739053510,
+          "notify_count": 1
+        }
+      },
+      "Statistics": {}
+    },
+    "Thermometry_RevF05": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "Thermometry_RevF40": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "Thermometry_RevF42": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "BaselineControl_History": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevF": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevD40": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevE01": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevE02": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevE03": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevE04": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevE05": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevE06": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevE07": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevE08": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevE09": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevE10": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevE11": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevE12": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevE13": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevE14": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevE15": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevE16": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevE17": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevE40": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevE41": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevE43": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevE44": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevF01": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevF02": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevF03": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevF04": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevF05": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevF17": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevF40": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    },
+    "DCRCdriver_ErrCheck_RevF42": {
+      "Common": {},
+      "Variables": {},
+      "Statistics": {}
+    }
+  },
+  "Sequencer": {
+    "State": {},
+    "Script": {},
+    "Command": {}
+  },
+  "WebServer": {
+    "Proxy": {},
+    "https port": {
+      "type": 7,
+      "access_mode": 7,
+      "last_written": 1736206419
+    },
+    "mime.types": {
+      ".BZ": {
+        "type": 12,
+        "item_size": 19,
+        "access_mode": 7,
+        "last_written": 1733191252
+      }
+    },
+    "Enable https port": {
+      "type": 8,
+      "access_mode": 7,
+      "last_written": 1736206619
+    }
+  },
+  "ChannelMap": {
+    "iZIP": {},
+    "HVdet": {}
+  },
+  "Experiment": {
+    "Menu": {
+      "ODB": {
+        "type": 8,
+        "access_mode": 7,
+        "last_written": 1679237797
+      }
+    },
+    "Name": {
+      "type": 12,
+      "item_size": 10,
+      "access_mode": 7,
+      "last_written": 1733180189
+    },
+    "Security": {
+      "RPC hosts": {},
+      "RPC ports": {
+        "ODBInit": {
+          "type": 6,
+          "access_mode": 7,
+          "last_written": 1679237796
+        },
+        "mserver2": {
+          "type": 6,
+          "access_mode": 7,
+          "last_written": 1733191247
+        },
+        "cdms_dell": {
+          "type": 6,
+          "access_mode": 7,
+          "last_written": 1736807666
+        },
+        "POEMonitor": {
+          "type": 6,
+          "access_mode": 7,
+          "last_written": 1737390821
+        },
+        "DCRCDriverRevF": {
+          "type": 6,
+          "access_mode": 7,
+          "last_written": 1739573875
+        },
+        "DCRCDriverRevD40": {
+          "type": 6,
+          "access_mode": 7,
+          "last_written": 1734109632
+        },
+        "DCRCDriverRevE40": {
+          "type": 6,
+          "access_mode": 7,
+          "last_written": 1739399285
+        },
+        "DCRCDriverRevF01": {
+          "type": 6,
+          "access_mode": 7,
+          "last_written": 1738857209
+        },
+        "DCRCDriverRevF401": {
+          "type": 6,
+          "access_mode": 7,
+          "last_written": 1739400396
+        },
+        "cdms-gw.scdms.snolab.ca": {
+          "type": 6,
+          "access_mode": 7,
+          "last_written": 1717100948
+        }
+      }
+    },
+    "Buffer sizes": {},
+    "Status items": {
+      "Latest filename": {
+        "type": 12,
+        "item_size": 32,
+        "access_mode": 7,
+        "last_written": 1740169119
+      }
+    },
+    "Edit on start": {},
+    "Midas server port": {
+      "type": 6,
+      "access_mode": 7,
+      "last_written": 1734482641
+    }
+  },
+  "RunControl": {
+    "fiLoop": {
+      "type": 12,
+      "item_size": 32,
+      "access_mode": 7,
+      "last_written": 1740682192
+    },
+    "Parameters": {},
+    "Intermediate state": {
+      "type": 7,
+      "access_mode": 7,
+      "last_written": 1738858997
+    }
+  },
+  "Seriesinfo": {},
+  "TelegraphNoise": {
+    "Settings": {},
+    "Variables": {}
+  },
+  "DetectorTesting": {
+    "Control": {},
+    "Results": {
+      "Det01": {},
+      "Det02": {},
+      "Det03": {},
+      "Det04": {},
+      "Det40": {
+        "Rn (mOhms)": {
+          "type": 9,
+          "num_values": 12,
+          "access_mode": 7,
+          "last_written": 1734109962
+        }
+      }
+    },
+    "Settings": {
+      "Tests": {
+        "TES": {
+          "Rn": {
+            "type": 8,
+            "access_mode": 7,
+            "last_written": 0
+          }
+        },
+        "SQUID": {}
+      },
+      "Channels": {
+        "Det01": {},
+        "Det02": {},
+        "Det03": {},
+        "Det04": {},
+        "Det05": {},
+        "Det06": {},
+        "Det07": {},
+        "Det08": {},
+        "Det09": {},
+        "Det10": {},
+        "Det11": {},
+        "Det12": {},
+        "Det13": {},
+        "Det14": {},
+        "Det15": {},
+        "Det16": {},
+        "Det17": {},
+        "Det18": {},
+        "Det19": {},
+        "Det20": {},
+        "Det21": {},
+        "Det22": {},
+        "Det23": {},
+        "Det24": {},
+        "Det40": {}
+      }
+    }
+  },
+  "DetectorTypeMap": {},
+  "HealthMonitoring": {
+    "POEMonitoring": {}
+  }
+}
