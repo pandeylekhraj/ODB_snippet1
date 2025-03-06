@@ -1,0 +1,86 @@
+{
+  "Logger": {
+    "Channels": {
+      "0": {
+        "Settings": {
+          "Current filename": ".RUN00075_DUMP0001.mid.gz"
+        },
+        "Statistics": {
+          "Disk level": 0.001500701734860943,
+          "Bytes written": 4489610,
+          "Files written": 20818,
+          "Events written": 361,
+          "Bytes written total": 17319883542959.0,
+          "Bytes written subrun": 2244248,
+          "Bytes written uncompressed": 69735101
+        }
+      }
+    }
+  },
+  "System": {
+    "Clients": {
+      "2049309": {
+        "Run state": 1
+      },
+      "2049311": {
+        "Run state": 1
+      }
+    }
+  },
+  "Runinfo": {
+    "Stop time": "Thu Feb 27 13:53:03 2025",
+    "Stop time binary": "0x67c0b48f",
+    "Transition in progress": 0
+  },
+  "Equipment": {
+    "EBlvl": {
+      "Statistics": {
+        "Events sent": 56
+      }
+    },
+    "EBuilder": {
+      "Statistics": {
+        "Events sent": 355
+      },
+      "Special dump numbers": {
+        "Last BORR": 1,
+        "Last BORTS": 1
+      }
+    },
+    "L2Trigger": {
+      "Statistics": {
+        "Events sent": 86
+      }
+    },
+    "readoutfe_SDU": {
+      "Statistics": {
+        "Events sent": 0
+      }
+    },
+    "readoutveto03": {
+      "Statistics": {
+        "Events sent": 10
+      }
+    },
+    "L2TriggerHistory": {
+      "Statistics": {
+        "Events sent": 10
+      }
+    },
+    "readouthistory03": {
+      "Statistics": {
+        "Events sent": 11
+      }
+    },
+    "readoutSDUhistory": {
+      "Statistics": {
+        "Events sent": 11
+      }
+    },
+    "Thermometry_RevF03": {
+      "Statistics": {
+        "Events sent": 2
+      }
+    }
+  }
+}
