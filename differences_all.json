@@ -1,0 +1,48 @@
+{
+  "SDU": {
+    "DAC": {
+      "Current (mA)": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Control register comment": "0 = disabled. 5 = 4 to 20 mA, 6 =  0 to 20 mA, 7 = 0 to 24 mA."
+    },
+    "Antenna": {
+      "ADC Control Comment": "Set to 0x120 constantly",
+      "TriggerDeadtime Comment": "Minimum interval between antenna triggers in us"
+    },
+    "Trigger": {
+      "TriggerSourceComment": "Accelerometer (0-3), Antenna (4), Lemo (8-11), Ethernet/sync (12). 5-7 not used do not change"
+    },
+    "SDUMessage": {
+      "Broadcast index": 255,
+      "BroadcastComment": "Choose which index of look-up table to send to DCRCs now.",
+      "SDU Message Comment": "256 possible SDU responses. 0 = ignore, 1=trigger, 2=start veto, 3=end veto"
+    },
+    "LEMOOutputs": {
+      "OutputTypeComment": "Select between latched output (0) and pulsed output (1) for LEMO 0 and 1",
+      "Output Pulse Lengths Comment": "Allowed values are from 0-2.55 micro-seconds in incroments of 10ns",
+      "WriteFrontPanelOutputsComment": "A write to bit 0 goes to output 0 and a write to bit 1 goes to output 1"
+    },
+    "Accelerometer": {
+      "Amplifier Gain Comment": "Allowed values are 1,2,5,10",
+      "TriggerDeadtime Comment": "Minimum interval between acceleromenter triggers in us"
+    },
+    "ControlAndStatus": {
+      "ControlandStatusComment": "Bit 0: General Reset of the DRAM pointers. Bit 4: Enable(1)or Disable(0)DRAM writes. Should be set "
+    }
+  },
+  "Equipment.EBuilder": {
+    "Stop run on error": true,
+    "Subrun event limit": 0,
+    "Write partial events": false
+  },
+  "Equipment.hvsupply": {
+    "Hostname": "192.168.3.80",
+    "mainSwitch": 0,
+    "numOutputs": 32,
+    "SnmpwalkCommand": ""
+  }
+}
